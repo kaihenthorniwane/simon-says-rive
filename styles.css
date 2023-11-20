@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: linear-gradient(45deg, rgba(214,228,241,1) 0%, rgba(220,233,244,1) 100%);
+}
+
+.death {
+    background-image: linear-gradient(45deg, rgba(2,14,25,1) 0%, rgba(38,50,61,1) 79%, rgba(45,57,69,1) 100%);
+}
+
+#canvas {
+    max-width: 100%;
+    min-width: 700px;
+}
